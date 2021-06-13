@@ -4,7 +4,7 @@ import "../../css/ConnexionActivity/connexion.css"
 
 const ConnexionActivity = ({ setNewHash = () => { } }) => {
     const CLIENT_ID = 'ac2686602dd842ef9dabff18e06e527a';
-    const REDIRECT_URI = 'http://localhost:3000/';
+    const REDIRECT_URI = 'https://marine.dxqv2v8t1rl19.amplifyapp.com/';
     const SCOPES = '';
     const LoginURL =
         'https://accounts.spotify.com/authorize?client_id=' + CLIENT_ID +
