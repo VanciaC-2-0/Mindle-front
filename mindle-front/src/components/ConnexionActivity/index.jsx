@@ -3,7 +3,7 @@ import logo from "../../img/mindle_logo.png"
 import "../../css/ConnexionActivity/connexion.css"
 
 const ConnexionActivity = ({ setNewHash = () => { } }) => {
-    const CLIENT_ID = 'ac2686602dd842ef9dabff18e06e527a';
+    const CLIENT_ID = 'a2c29c3548284c768a253808d1bae9fe';
     const REDIRECT_URI = 'https://marine.dxqv2v8t1rl19.amplifyapp.com/';
     const SCOPES = '';
     const LoginURL =
@@ -20,7 +20,7 @@ const ConnexionActivity = ({ setNewHash = () => { } }) => {
         const hash = window.location.hash
         .substring(1)
         .split("&")
-      .reduce(function (initial, item) {
+        .reduce(function (initial, item) {
             if (item) {
                 var parts = item.split("=");
                 initial[parts[0]] = decodeURIComponent(parts[1]);
